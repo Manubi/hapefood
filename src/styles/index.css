@@ -1,6 +1,20 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
+@import "tailwindcss/base";
+@import "tailwindcss/components";
 
 /* Your own custom component styles */
 
-@import 'tailwindcss/utilities';
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "Monument";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/fonts/MonumentExtended-Regular.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Monument";
+  font-style: bold;
+  font-weight: 600;
+  src: local(""), url("/fonts/MonumentExtended-Ultrabold.otf") format("otf");
+}
