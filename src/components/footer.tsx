@@ -24,7 +24,7 @@ const navigation = [
   },
   {
     name: "GitHub",
-    href: "#",
+    href: "https://github.com/Manubi/hapefood",
     icon: (props) => (
       <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
         <path
