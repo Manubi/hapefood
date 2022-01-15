@@ -6,13 +6,13 @@ export default function Header() {
           <div className="flex items-center">
             <a href="/">
               <span className="sr-only">HAPEFOOD</span>
-              <h1 className="text-3xl font-extrabold text-white font-monument">
+              <h1 className="text-2xl font-extrabold text-white md:text-3xl font-monument">
                 H<span className="transform rotate-180">A</span>PE
                 <span className="italic">FOOD</span>
               </h1>
             </a>
           </div>
-          <div className="ml-10 space-x-4">
+          <div className="ml-4 space-x-4 md:ml-10">
             <a
               href="https://hapebeast.com"
               target="_blank"
@@ -22,7 +22,7 @@ export default function Header() {
             </a>
             <a
               href="mailto: pomfritat@gmail.com"
-              className="inline-block px-4 py-2 text-base font-medium text-black bg-white border border-transparent rounded-md font-barlow hover:bg-gray-200"
+              className="hidden px-2 py-2 text-base font-medium text-black bg-white border border-transparent rounded-md md:px-4 md:inline-block font-barlow hover:bg-gray-200"
             >
               Send Recipe
             </a>

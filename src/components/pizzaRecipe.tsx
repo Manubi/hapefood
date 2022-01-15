@@ -1,32 +1,38 @@
 export function PizzaRecipe() {
   return (
     <div>
-      <h2 className="mb-6 text-4xl font-semibold font-barlow">HAPE Pizza</h2>
-      <img className="rounded-xl " src="/pizza.png" alt="HAPE Pizza" />
-      <div>
-        <h3 className="mb-6 text-3xl font-semibold font-barlow">Ingredients</h3>
-        <h4 className="mb-6 text-2xl font-semibold font-barlow">
-          For the dough
-        </h4>
-        <ul>
-          <li>Flour - 640g</li>
-          <li>Water - 360g</li>
-          <li>Salt - 14g or around 2 teaspoons</li>
-          <li>Yeast (dry or fresh) - around 0.3 to 0.5g</li>
-        </ul>
-        <h4 className="mb-6 text-2xl font-semibold font-barlow">
-          For the toppings
-        </h4>
-        <ul>
-          <li>300g tin of plum tomatoes</li>
-          <li>Tomato puree (optional) – a tablespoon</li>
-          <li>Salt – sprinkling of table salt or sea salt</li>
-          <li>Pepper - freshly ground black pepper</li>
-          <li>Olive Oil – a few glugs</li>
-          <li>Basil - hand full of fresh leaves</li>
-          <li>Mozzarella - 2 x 125g bags of fresh Mozzarella balls</li>
-          <li>Salami - a few slices</li>
-        </ul>
+      <h2 className="mb-6 text-4xl font-semibold font-monument">HAPE Pizza</h2>
+      <div className="flex gap-14">
+        <div>
+          <img className="rounded-xl w-80" src="/pizza1.png" alt="HAPE Pizza" />
+        </div>
+        <div>
+          <h3 className="mb-6 text-3xl font-semibold font-barlow">
+            Ingredients
+          </h3>
+          <h4 className="mb-6 text-2xl font-semibold font-barlow">
+            For the dough
+          </h4>
+          <ul>
+            <li>Flour - 640g</li>
+            <li>Water - 360g</li>
+            <li>Salt - 14g or around 2 teaspoons</li>
+            <li>Yeast (dry or fresh) - around 0.3 to 0.5g</li>
+          </ul>
+          <h4 className="mt-4 mb-2 text-2xl font-semibold font-barlow">
+            For the toppings
+          </h4>
+          <ul>
+            <li>300g tin of plum tomatoes</li>
+            <li>Tomato puree (optional) – a tablespoon</li>
+            <li>Salt – sprinkling of table salt or sea salt</li>
+            <li>Pepper - freshly ground black pepper</li>
+            <li>Olive Oil – a few glugs</li>
+            <li>Basil - hand full of fresh leaves</li>
+            <li>Mozzarella - 2 x 125g bags of fresh Mozzarella balls</li>
+            <li>Salami - a few slices</li>
+          </ul>
+        </div>
       </div>
       <div>
         <h3 className="mb-6 text-3xl font-semibold font-barlow">Method</h3>
@@ -40,7 +46,7 @@ export function PizzaRecipe() {
           evening. Don’t worry about exact timings, anywhere around 20-28 hours
           will be fine.
         </p>
-        <ol>
+        <ol className="my-8 list-disc list-inside">
           <li>
             Mix all the ingredients into a shaggy mass in a large bowl, starting
             by adding the water first. You can do this by hand or use a wooden
@@ -82,7 +88,7 @@ export function PizzaRecipe() {
           simple sauce. Instead of cooking the sauce, you can thicken it by
           sieving (after blending) if you prefer.
         </p>
-        <ol>
+        <ol className="my-8 list-disc list-inside">
           <li>Blend a tin of quality plum tomatoes into a smooth sauce.</li>
           <li>
             Cook the sauce until it reaches the desired thickness (still runny
@@ -122,7 +128,7 @@ export function PizzaRecipe() {
           </li>
         </ul>
 
-        <ol>
+        <ol className="my-8 list-disc list-inside">
           <li>Ensure that you baking stone/tray is inside your oven.</li>
           <li>
             Get your oven up to temperature. For pizza ovens 420 – 480 degrees

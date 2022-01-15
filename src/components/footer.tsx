@@ -54,7 +54,7 @@ export function Footer() {
           ))}
         </div>
         <div className="mt-8 md:mt-0 md:order-1">
-          <p className="text-base text-center text-gray-400">
+          <p className="text-base text-center text-gray-400 font-barlow">
             &copy; 2022 HAPEFOOD, Apes forever.
           </p>
         </div>
