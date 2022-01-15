@@ -60,8 +60,8 @@ export function RecipeOverview() {
         <div>
           <blockquote
             className="tiktok-embed"
-            cite="https://www.tiktok.com/@alexanderkoslowski_/video/7021869940802145542"
-            data-video-id="7021869940802145542"
+            cite="https://www.tiktok.com/@hapefood/video/7053435624711277830"
+            data-video-id="7053435624711277830"
             style={{ maxWidth: "605px", minWidth: "325px" }}
           >
             {" "}
@@ -69,51 +69,42 @@ export function RecipeOverview() {
               {" "}
               <a
                 target="_blank"
-                title="@alexanderkoslowski_"
-                href="https://www.tiktok.com/@alexanderkoslowski_"
+                title="@hapefood"
+                href="https://www.tiktok.com/@hapefood"
               >
-                @alexanderkoslowski_
-              </a>{" "}
-              Fail 😆{" "}
-              <a
-                title="foryou"
-                target="_blank"
-                href="https://www.tiktok.com/tag/foryou"
-              >
-                #foryou
+                @hapefood
               </a>{" "}
               <a
-                title="nass"
+                title="hapebeast"
                 target="_blank"
-                href="https://www.tiktok.com/tag/nass"
+                href="https://www.tiktok.com/tag/hapebeast"
               >
-                #nass
-              </a>{" "}
-              #pipi{" "}
-              <a
-                title="girl"
-                target="_blank"
-                href="https://www.tiktok.com/tag/girl"
-              >
-                #girl
+                #hapebeast
               </a>{" "}
               <a
-                title="boy"
+                title="hape"
                 target="_blank"
-                href="https://www.tiktok.com/tag/boy"
+                href="https://www.tiktok.com/tag/hape"
               >
-                #boy
+                #hape
               </a>{" "}
-              @paola.mar1a{" "}
+              <a
+                title="hapefood"
+                target="_blank"
+                href="https://www.tiktok.com/tag/hapefood"
+              >
+                #hapefood
+              </a>{" "}
               <a
                 target="_blank"
-                title="♬ Originalton - Alexander Koslowski"
-                href="https://www.tiktok.com/music/Originalton-7021869725592423174"
+                title="♬ Pizza - Mention Taylor Jackson"
+                href="https://www.tiktok.com/music/Pizza-6754476923973273602"
               >
-                ♬ Originalton - Alexander Koslowski
+                ♬ Pizza - Mention Taylor Jackson
               </a>{" "}
             </section>{" "}
           </blockquote>{" "}
+          <script async src="https://www.tiktok.com/embed.js"></script>
         </div>
       </div>
     </div>
