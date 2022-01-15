@@ -22,7 +22,7 @@ export default function Header() {
             </a>
             <a
               href="mailto: pomfritat@gmail.com"
-              className="hidden px-2 py-2 text-base font-medium text-black bg-white border border-transparent rounded-md md:px-4 md:inline-block font-barlow hover:bg-gray-200"
+              className="hidden px-4 py-2 text-base font-medium text-black bg-white border border-transparent rounded-md md:px-4 md:inline-block font-barlow hover:bg-gray-200"
             >
               Send Recipe
             </a>
