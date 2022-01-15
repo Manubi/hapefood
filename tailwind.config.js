@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        monument: ["MonumentExtended", "sans-serif"],
+        monument: ["Monument Extended", "sans-serif"],
         barlow: ["Barlow", "sans-serif"],
       },
     },
